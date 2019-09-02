@@ -39,18 +39,18 @@ The first Arabic tool to and sign iOS applications from the link
 Important modifications: The first file to modify the paths Pedrovail paths and folders sgin.sh
 
 
-#  iPhone Distribution: abdaslam abdallah (xxxxxxx) اسم شهادة المطورين مثال
+#  iPhone Distribution: Taylor Mitchell (xxxxxxx) 
 Certificate_Name="iPhone Distribution: xxxxxxx xxxxxx (xxxxxxx)"
 
-# مسار بروفايل
+# Profile path
 Profile_Path="/Users/xxxx/xxxxxx/xxxx/xxx/embedded.mobileprovision"
-#مسار ملفات التطبيقات
+# Path of application files
 IPAS_FOLDER="/Users/xxxxxxx/xxxxx/xxxxxx/rsn/files"
 
-#   لا تغير شي// عدد التكرارات المرادة
+#   Do not change Shit // the number of repetitions desired
 DUPLICATS_NUMBER="0"
 
-# مسار استخراج الملفات بعد التوقيع
+# Extract path files after signing
 OUTPUT_DIR="/xxxxx/xxxxxx/xxxxxx/re-sign-IPA-file-auto"
 
 Modify the command line in the index.php file to match the path of your folders
