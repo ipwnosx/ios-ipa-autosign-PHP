@@ -55,8 +55,8 @@ OUTPUT_DIR="/xxxxx/xxxxxx/xxxxxx/re-sign-IPA-file-auto"
 
 Modify the command line in the index.php file to match the path of your folders
 
-$ output  =  shell_exec ( ' chmod + x /Users/abdulsalmabdullh/Documents/test/rsn/sgin.sh ' ); // this 
-$ output  =  shell_exec ( ' /Users/abdulsalmabdullh/Documents/test/rsn/sgin.sh ' ); // And this
+$ output  =  shell_exec ( ' chmod + x /Users/taylormitchell/Documents/test/rsn/sgin.sh ' ); // this 
+$ output  =  shell_exec ( ' /Users/taylormitchell/Documents/test/rsn/sgin.sh ' ); // And this
 Please be careful to put the tracks in their correct place to run the signature without problems
 
 Installation on the server
@@ -73,4 +73,4 @@ Changed the IP domains to the IP server from the program mamp pro
 And download the security certificate files crt & key and put them in the program mamp by going Pearl ssl box and then learn on the ssl and under this option you will get a path to degrade security certificate files
 
 Note
-The tool is still experimental but is working efficiently currently without problems and any problem you face continue to me in Twitter
+The tool is still experimental but is working efficiently currently without problems
