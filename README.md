@@ -34,7 +34,6 @@ ipaDistrubution.php	Add files via upload	now
  README.md
 re-sign-IPA-file-auto
 re-sgin ipa file auto from url's :) beta2
-The first Arabic tool to and sign iOS applications from the link
 
 Important modifications: The first file to modify the paths Pedrovail paths and folders sgin.sh
 
