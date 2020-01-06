@@ -31,7 +31,7 @@ $bundle_version = $ipa->bundleversion;
    var element = document.getElementById("unmake");
    element.classList.add("ajaxloader3");
 }</script><?php if (!isset($_POST['submit'])) die();
-    $destination_folder = 'rsn/files/'; // لا تغير شي هنا
+    $destination_folder = 'rsn/files/'; // Don't change anything here
     $url = $_POST['url']; $newfname = $destination_folder . basename($url);
     $file = fopen ($url, "rb");
     if ($file) { $newf = fopen ($newfname, "wb");
@@ -40,10 +40,10 @@ $bundle_version = $ipa->bundleversion;
     }
     if ($file) { fclose($file); }
     if ($newf) { fclose($newf); }
-    // مكان اوامر التوقيع قم بتغييرها حسب مسار الملفات عندك
-$output = shell_exec('chmod +x /Users/abdulsalmabdullh/Documents/test/rsn/sgin.sh ');// هذا
-$output = shell_exec('/Users/abdulsalmabdullh/Documents/test/rsn/sgin.sh ');// وهذا 
+    // Place your signature orders, change them according to your file path
+$output = shell_exec('chmod +x /Users/abdulsalmabdullh/Documents/test/rsn/sgin.sh ');// This
+$output = shell_exec('/Users/abdulsalmabdullh/Documents/test/rsn/sgin.sh ');// And this 
     ?></div></div></div><div class="txt2">made with love &lt;3 by @IOS4bd</div><center><a href="twitter:///user?screen_name=IOS4bd" class="button"><ion-icon name="logo-twitter"></ion-icon>follow me</a></center></div><script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script></body></html>
 
-
+ 
 
